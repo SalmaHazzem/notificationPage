@@ -1,0 +1,97 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+}
+
+html {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    font-size: 1.2rem;
+    padding-right: 7px;
+}
+
+p {
+    margin: 0;
+}
+
+span {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.container {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    padding: 35px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nums {
+    background-color: #0202b6;
+    color: white;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 10px;
+}
+#marked{
+    color: gray;
+}
+.head div {
+    display: flex;
+    align-items: center;
+}
+
+.notif {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.8rem;
+    background-color: #eeeeff;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    padding: 8px;
+}
+
+.notif div {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+}
+
+.notif img {
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+.message {
+    flex-direction: column;
+}
+
+.text {
+    color: gray;
+}
+.event {
+    color: gray;
+}
+.time {
+    color: gray;
+    font-size: 0.7rem;
+    margin-left: 10px;
+}
+
+@media screen and (max-width:800px) {
+    .container {
+        width: 80%;
+    }
+}
